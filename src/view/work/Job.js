@@ -27,7 +27,7 @@ const Job = ({company, location, position, time, content}) => {
     <div>
       <Card className={classes.job} square elevation={5}>
         <Typography>
-          <b>{company}</b>, {location} - <i>{position}</i> 
+          <b>{company}</b>, {location} - {position}
         </Typography>
         <span style={{"fontSize": "0.7em"}}>{time}</span>
         <br />

@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import { 
   BrowserRouter as Router,
   Switch,
@@ -73,7 +74,7 @@ function App() {
                   <Route path={educationPath} component={Education} />
                   <Route path={skillsPath} component={Skills} />
                   <Route path={projectsPath} component={Projects} />
-                  <Route path={contactPath} component={Contact} />
+                  <Route path={contactPath} render={() => <Contact theme={theme}/>} />
                 </Switch>
                 </div>
               </Grid>

@@ -21,7 +21,7 @@ const School = ({name, location, qualification, time, grades}) => {
           <b>{name}</b>, {location}
           <br />
           <hr style={{color: "#ffa64d"}} />
-          <i>{qualification}</i>
+          {qualification}
         </Typography>
         <div style={{"fontSize": "0.8em", "display": "inline-block"}}>{time}</div>
         <div style={{"float": "right"}}><b>{grades}</b></div>

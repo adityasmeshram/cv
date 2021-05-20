@@ -46,35 +46,35 @@ const Accounts = ({theme}) => {
       <ThemeProvider theme={theme}>
         <div className="anchor">
           <Tooltip title="GitHub">
-            <a href={GITHUB}>
+            <a href={GITHUB} target="_blank" rel="noopener noreferrer">
               <GitHubIcon color="primary"/>
             </a>
           </Tooltip>
         </div>
         <div className="anchor">
           <Tooltip title="LinkedIn">
-            <a href={LINKEDIN}>
+            <a href={LINKEDIN} target="_blank" rel="noopener noreferrer">
               <LinkedInIcon color="primary"/>
             </a>
           </Tooltip>
         </div>
         <div className="anchor">
           <Tooltip title="Facebook">
-            <a href={FACEBOOK}>
+            <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
               <FacebookIcon color="primary"/>
             </a>
           </Tooltip>
         </div>
         <div className="anchor">
           <Tooltip title="Instagram">
-            <a href={INSTAGRAM}>
+            <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer">
               <InstagramIcon color="primary"/>
             </a>
           </Tooltip>
         </div>
         <div className="anchor">
           <Tooltip title="Twitter">
-            <a href={TWITTER}>
+            <a href={TWITTER} target="_blank" rel="noopener noreferrer">
               <TwitterIcon color="primary"/>
             </a>
           </Tooltip>

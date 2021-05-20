@@ -42,7 +42,7 @@ const Skills = () => {
         <div>
           <Card className={classes.skillCard} square elevation={5}>
             <Typography><b>Programming Languages</b></Typography>
-            <br />
+            <hr style={{color: "#ffa64d"}} />
             <SkillWrapper skill="Java" />
             <SkillWrapper skill="JavaScript" />
             <SkillWrapper skill="Python" />
@@ -52,7 +52,7 @@ const Skills = () => {
           <br />
           <Card className={classes.skillCard} square elevation={5}>
             <Typography><b>Java Development</b></Typography>
-            <br />
+            <hr style={{color: "#ffa64d"}} />
             <SkillWrapper skill="Java" />
             <SkillWrapper skill="Dagger" />
             <SkillWrapper skill="Spring core" />
@@ -63,7 +63,7 @@ const Skills = () => {
           <br />
           <Card className={classes.skillCard} square elevation={5}>
             <Typography><b>Web Development</b></Typography>
-            <br />
+            <hr style={{color: "#ffa64d"}} />
             <SkillWrapper skill="HTML" />
             <SkillWrapper skill="CSS" />
             <SkillWrapper skill="JavaScript" /> 
@@ -77,7 +77,7 @@ const Skills = () => {
           <br />
           <Card className={classes.skillCard} square elevation={5}>
             <Typography><b>AWS Development</b></Typography>
-            <br />
+            <hr style={{color: "#ffa64d"}} />
             <SkillWrapper skill="Lambda" />
             <SkillWrapper skill="DynamoDB" /> 
             <SkillWrapper skill="APIGateway" />
@@ -88,7 +88,7 @@ const Skills = () => {
           <br />
           <Card className={classes.skillCard} square elevation={5}>
             <Typography><b>Data Science</b></Typography>
-            <br />
+            <hr style={{color: "#ffa64d"}} />
             <SkillWrapper skill="Numpy" />
             <SkillWrapper skill="Pandas" />
             <SkillWrapper skill="Scikit-Learn" />
@@ -99,7 +99,7 @@ const Skills = () => {
           <br />
           <Card className={classes.skillCard} square elevation={5}>
             <Typography><b>Tools</b></Typography>
-            <br />
+            <hr style={{color: "#ffa64d"}} />
             <SkillWrapper skill="Git" />
             <SkillWrapper skill="Docker" />
           </Card>
