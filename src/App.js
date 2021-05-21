@@ -49,7 +49,7 @@ const theme = createMuiTheme({
 function App() {
   const classes = useStyle();
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <br />
         <div className="container">
