@@ -48,6 +48,7 @@ const Skills = () => {
             <SkillWrapper skill="Python" />
             <SkillWrapper skill="C++" />
             <SkillWrapper skill="C" />
+            <SkillWrapper skill="Bash" />
           </Card>
           <br />
           <Card className={classes.skillCard} square elevation={5}>
@@ -94,7 +95,17 @@ const Skills = () => {
             <SkillWrapper skill="Scikit-Learn" />
             <SkillWrapper skill="Keras" />
             <SkillWrapper skill="TensorFlow" />
+            <SkillWrapper skill="OpenCV" />
+            <SkillWrapper skill="NLTK" />
+            <SkillWrapper skill="Matplotlib" />
             <SkillWrapper skill="Flask" />
+          </Card>
+          <br />
+          <Card className={classes.skillCard} square elevation={5}>
+            <Typography><b>Database</b></Typography>
+            <hr style={{color: "#ffa64d"}} />
+            <SkillWrapper skill="MySQL" />
+            <SkillWrapper skill="MongoDB" />
           </Card>
           <br />
           <Card className={classes.skillCard} square elevation={5}>

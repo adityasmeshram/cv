@@ -9,8 +9,18 @@ import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 import { IconButton, ThemeProvider, Tooltip } from '@material-ui/core';
 import { homePath, workPath, educationPath, skillsPath, projectsPath, contactPath } from "../../constants/Routes";
 import LinkComponent from './LinkComponent';
+import resumeLink from "../../resources/Aditya_Meshram_Resume.pdf";
 
 const NavBar = ({theme}) => {
+
+  const handleResumeDownload = () => {
+    const link = document.createElement("a");
+    link.href = resumeLink;
+    link.setAttribute("download", "Aditya_Meshram_Resume.pdf");
+    document.body.appendChild(link);
+    link.click();
+  }
+
   return (
     <div className="navbar">
       <ThemeProvider theme={theme}>
@@ -45,7 +55,7 @@ const NavBar = ({theme}) => {
           icon={(style) => <PhoneIcon color={style.color} />}
         />
         <Tooltip title="Resume" placement="left">
-          <IconButton color="primary">
+          <IconButton color="primary" onClick={handleResumeDownload}>
             <CloudDownloadIcon color="primary"/>
           </IconButton>
         </Tooltip>
